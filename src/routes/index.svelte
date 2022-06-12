@@ -1,0 +1,19 @@
+<script>
+    import LayoutGrid, { Cell } from '@smui/layout-grid';
+</script>
+
+<LayoutGrid>
+    <Cell span={3} />
+    <Cell span={6}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sollicitudin quis erat ac eleifend. Phasellus eu odio iaculis, pretium nisl id, cursus felis. Cras faucibus mattis dapibus. Nam vestibulum enim velit, nec convallis sem bibendum quis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam consequat ornare malesuada. Proin convallis libero sed libero cursus semper et sit amet massa. Suspendisse efficitur gravida elementum. Quisque scelerisque ultrices augue. Ut vel sagittis urna, ut faucibus est. Sed sagittis augue eu massa lobortis, in mollis sem rhoncus.
+
+        Ut ut augue ac erat interdum fringilla et dapibus diam. Nunc eget mauris varius, porttitor magna sit amet, sollicitudin dolor. Morbi non sagittis odio, in commodo nibh. Nam vitae lobortis mauris, faucibus gravida risus. Donec aliquam nibh massa, elementum sodales magna viverra a. Nulla cursus laoreet libero sit amet euismod. Donec pharetra eleifend massa. Integer mauris lacus, bibendum quis finibus iaculis, tristique nec nisl. Vestibulum porta dolor mi, vitae congue erat viverra non. Ut eget leo id nunc viverra aliquet non at lectus. Morbi cursus elit at justo fringilla imperdiet. Sed vestibulum ut risus sit amet porta. Nulla facilisi. Sed sed placerat libero. Vestibulum vestibulum, odio eget accumsan dapibus, nisl felis placerat neque, id iaculis est neque ut eros. Vestibulum elementum blandit convallis.
+        
+        Fusce malesuada neque at lacinia placerat. Pellentesque purus sapien, fringilla nec ipsum at, varius faucibus magna. Nullam at justo eros. Sed dui enim, laoreet eu enim vel, ultrices lobortis purus. Fusce enim augue, iaculis eu gravida a, posuere et dolor. Duis hendrerit augue id dictum porttitor. Praesent efficitur, felis a scelerisque facilisis, nisl risus efficitur tellus, ut malesuada massa neque eget tellus.
+        
+        In sed dictum odio. Duis sagittis gravida orci. Ut laoreet placerat tortor id vehicula. Integer efficitur quam interdum urna pharetra suscipit. Proin pretium dui vehicula, suscipit sapien ut, accumsan arcu. Cras facilisis consectetur velit, at vestibulum magna bibendum et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc nulla, ullamcorper auctor libero sed, mattis sagittis tortor. Morbi ultrices risus et ullamcorper porta. Vivamus scelerisque congue nunc in tristique. Donec elementum arcu et elit semper, vel pretium elit rhoncus. Cras dignissim non purus eu accumsan. Sed lacinia aliquam dolor, ac feugiat neque porta eget. Nulla interdum auctor iaculis. Phasellus sed enim et sapien placerat elementum in in nisl. Vivamus hendrerit turpis ut cursus sodales.
+        
+        Donec porta luctus nisl, sit amet aliquet turpis pretium in. Mauris tristique tincidunt velit, a sollicitudin massa semper eu. Donec efficitur libero vel ex aliquet, vitae commodo libero pellentesque. Nullam id elit in tortor imperdiet lobortis vel eu libero. Donec imperdiet tincidunt sollicitudin. Donec pharetra sem vel ligula lacinia, eu dictum dolor efficitur. Cras vestibulum eros posuere commodo rhoncus. Phasellus sed leo id nisl bibendum tristique non eget diam. Duis tincidunt hendrerit lacinia. Cras et fringilla magna, vel laoreet ligula. Etiam vehicula nec dolor id condimentum. Suspendisse facilisis ac velit quis commodo. Vestibulum euismod molestie feugiat. Phasellus suscipit sem tellus, in bibendum mauris laoreet quis. Mauris et auctor enim, at laoreet sem. Phasellus mauris orci, gravida at maximus volutpat, iaculis sed elit.
+    </Cell>
+    <Cell span={3} />
+</LayoutGrid>

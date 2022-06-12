@@ -1,0 +1,47 @@
+@use 'sass:color';
+
+@use '@material/theme/color-palette';
+
+/*
+  Color palette
+  #46244C - surface
+  #712B75 - primary
+  #C74B50 - secondary
+  #D49B54 - background
+*/
+
+// Svelte Colors!
+@use '@material/theme/index' as theme with (
+  $primary: #712B75,
+  $secondary: #C74B50,
+  $surface: #46244C,
+  $background: #D49B54,
+  $error: color-palette.$red-900
+);
+
+@use '@material/drawer/index' with (
+  $modal-scrim-color: #000,
+  $modal-scrim-opacity: 0
+);
+
+.mdc-top-app-bar {
+  --mdc-theme-primary: #712b7579;
+  backdrop-filter: blur(5px);
+}
+
+.mdc-drawer-scrim {
+  backdrop-filter: blur(5px);
+}
+
+html,
+body {
+  background-color: theme.$surface;
+  color: theme.$on-surface;
+}
+
+a {
+  color: #40b3ff;
+}
+a:visited {
+  color: color.scale(#40b3ff, $lightness: -35%);
+}

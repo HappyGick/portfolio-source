@@ -14,6 +14,16 @@
     import List, { Item, Text } from '@smui/list';
 
     let open = false;
+    let menuItems = [
+      {id: 'about', display: 'About'},
+      {id: 'projects', display: 'Projects'},
+      {id: 'contact', display: 'Contact Me'},
+      {id: 'cv', display: 'CV'}
+    ]
+
+    function clickOption() {
+        open = false;
+    }
 </script>
 
 <TopAppBar dense variant="fixed">
@@ -33,11 +43,12 @@
 <Drawer variant="modal" bind:open>
     <Header>
         <DrawerTitle>Menu</DrawerTitle>
-        <Subtitle>my cool menu</Subtitle>
     </Header>
     <Content>
         <List>
-            <Item>test</Item>
+            {#each menuItems as item}
+                <Item on:click={clickOption}>{item.display}</Item>
+            {/each}
         </List>
     </Content>
 </Drawer>

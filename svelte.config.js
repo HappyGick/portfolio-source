@@ -21,7 +21,12 @@ const config = {
 		trailingSlash: 'always',
 		prerender: {
 			default: true
-		}
+		},
+    vite: {
+      server: {
+        host: true
+      }
+    }
 	}
 };
 
